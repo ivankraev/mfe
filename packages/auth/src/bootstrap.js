@@ -28,7 +28,7 @@ const mount = (el, { onSignIn, onNavigate, defaultHistory, initialPath }) => {
   };
 };
 
-// If we are in development and in isolation,
+// If we are in development and in isolationn,
 // call mount immediately
 if (process.env.NODE_ENV === 'development') {
   const devRoot = document.querySelector('#_auth-dev-root');
